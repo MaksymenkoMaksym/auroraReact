@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/auroraReact/static/css/main.7acaea2f.css",
+    "main.js": "/auroraReact/static/js/main.07d3183d.js",
+    "index.html": "/auroraReact/index.html",
+    "main.7acaea2f.css.map": "/auroraReact/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/auroraReact/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
