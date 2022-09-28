@@ -25,29 +25,23 @@ const catalog = {
   ],
 };
 
-// const women = ['clothing', 'collections', 'collabs', 'brands'];
-// const clothing = [
-//   'T-shirts',
-//   'Sweatshirts',
-//   'Knitwear',
-//   'Jeans',
-//   'Jumpsuits',
-//   'Skirts',
-//   'Dresses',
-// ];
-
 const Menu = () => {
   const [value, setValue] = useState(catalog.mainMenu);
+  const [priority, setMenu] = useState([]);
+
   const subMenuHandler = value => {
     setValue((value = catalog[value]));
-    console.log(value);
     return 555;
   };
   return (
     <DivContainer>
       <MenuContainer>
         <Logo />
-        <MenuList menu={value} subMenuHandler={subMenuHandler} />
+        <MenuList
+          menu={value}
+          subMenuHandler={subMenuHandler}
+          priority={priority}
+        />
       </MenuContainer>
     </DivContainer>
   );
