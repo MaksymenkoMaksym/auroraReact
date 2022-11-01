@@ -15,10 +15,11 @@ export const Li = styled.li`
   border-bottom: 1px solid #f7f7f7;
 
   &::after {
-  content: '';
-  display: block;
-  height: 13px;
-  width: 8px;
-  background-image: url(${chevronright});
-  background-position: center;
+    content: '';
+    display: block;
+    height: 13px;
+    width: 8px;
+    background-image: url(${chevronright});
+    background-position: center;
+  }
 `;

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Menu from './Menu/Menu';
 export const App = () => {
-  const [value, setValue] = useState(0);
-  console.log(value);
+  // const [value, setValue] = useState(0);
+  // console.log(value);
   return (
     <div
       style={

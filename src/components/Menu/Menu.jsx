@@ -27,7 +27,7 @@ const catalog = {
 
 const Menu = () => {
   const [value, setValue] = useState(catalog.mainMenu);
-  const [priority, setMenu] = useState([]);
+  const [priority] = useState([]);
 
   const subMenuHandler = value => {
     setValue((value = catalog[value]));
