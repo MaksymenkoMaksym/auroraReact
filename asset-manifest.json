@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/auroraReact/static/css/main.7acaea2f.css",
-    "main.js": "/auroraReact/static/js/main.9b98ac94.js",
+    "main.js": "/auroraReact/static/js/main.c60df3e0.js",
     "static/media/icons.svg": "/auroraReact/static/media/icons.4d0fee5493dd0726725f86596cea37fa.svg",
     "index.html": "/auroraReact/index.html",
     "static/media/chevronright.svg": "/auroraReact/static/media/chevronright.337c9e9b7d4c2dcf074ef1ba145a698d.svg",
     "main.7acaea2f.css.map": "/auroraReact/static/css/main.7acaea2f.css.map",
-    "main.9b98ac94.js.map": "/auroraReact/static/js/main.9b98ac94.js.map"
+    "main.c60df3e0.js.map": "/auroraReact/static/js/main.c60df3e0.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.9b98ac94.js"
+    "static/js/main.c60df3e0.js"
   ]
 }
